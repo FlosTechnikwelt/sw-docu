@@ -1,0 +1,19 @@
+netzwerk:
+  label: Netzwerk
+  permalink: /netzwerk
+  description: Beiträge rund um Internetanbindung, WLAN und Netzwerk
+
+sicherheit:
+  label: Sicherheit
+  permalink: /sicherheit
+  description: Beiträge zu Firewall, Passwörtern und sicherem Arbeiten
+
+wartung:
+  label: Wartung
+  permalink: /wartung
+  description: Angekündigte Wartungen und Störungsmeldungen
+
+infrastruktur:
+  label: Infrastruktur
+  permalink: /infrastruktur
+  description: Beiträge zur technischen Infrastruktur der Schulen

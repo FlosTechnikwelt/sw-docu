@@ -1,0 +1,102 @@
+---
+sidebar_position: 2
+title: WLAN in den Schulen
+description: Die WLAN-Netze der Schulen, der Ausbau auf Wi-Fi 7 und was das für Ihre Geräte bedeutet.
+---
+
+import Bildplatzhalter from '@site/src/components/Bildplatzhalter';
+
+# WLAN in den Schulen
+
+Alle Klassenräume sowie die größeren Konferenzräume wurden bereits mit neuen
+Access Points nach dem aktuellen **Wi-Fi-7-Standard** ausgestattet – insgesamt
+sorgen in den Schulen **über 400 Access Points** für die WLAN-Versorgung.
+
+<Bildplatzhalter beschreibung="Neuer Access Point an der Decke eines Klassenraums" ratio="4 / 3" />
+
+Das bedeutet für den Unterricht: eine stabilere Verbindung, mehr Reichweite und
+genug Kapazität, damit auch eine ganze Klasse gleichzeitig ohne Ruckeln
+arbeiten kann.
+
+## Die WLAN-Netze
+
+In den Schulen gibt es drei WLAN-Netze:
+
+| Netz | Zweck | Anmeldung |
+| --- | --- | --- |
+| **schulen.wedel** | Das Netz für Lehrkräfte und schulische Geräte | WPA2-Enterprise: Benutzername = **Mailadresse**, Passwort = **Mail-Passwort** |
+| **infr.schulen.wedel** | Infrastruktur, z. B. Beamer und deren Streaming-Sticks („EZCast Pro II“) | wird zentral eingerichtet |
+| **Grassau.Free** | Freies WLAN für Schülerinnen und Schüler | ohne Passwort – **nicht an allen Schulen verfügbar** |
+
+Beim ersten Verbinden mit **schulen.wedel** kann eine **Zertifikatswarnung**
+erscheinen. Sie ist unbedenklich und muss für die ordnungsgemäße Funktion des
+internen Netzes bestätigt werden.
+
+## Die Access Points
+
+Der Ausbau erfolgt mit Access Points von **Ubiquiti (UniFi)**:
+
+| Modell | Standard | Einsatzort |
+| --- | --- | --- |
+| **UniFi U7-Pro** | Wi-Fi 7 | Klassenräume (neuer Ausbau) |
+| **UniFi U7-Pro-XGS** | Wi-Fi 7 | Großräume, z. B. Aula und Sporthalle |
+| **UniFi AC Pro** | Wi-Fi 5 | Bestandsräume (wird nach und nach ersetzt) |
+
+## Frequenzbänder und Kompatibilität
+
+Alle Netze funken auf **2,4 GHz** und **5 GHz**. Die neuen Wi-Fi-7-Access-Points
+bieten zusätzlich das **6-GHz-Band**:
+
+- **2,4 GHz:** größte Reichweite, aber am langsamsten und am anfälligsten für
+  Störungen – gut für ältere oder weit entfernte Geräte.
+- **5 GHz:** deutlich schneller bei etwas geringerer Reichweite – das Band, das
+  die meisten Geräte heute nutzen.
+- **6 GHz:** am schnellsten und kaum belegt, dafür mit der geringsten
+  Reichweite – wird nur von neueren Geräten mit **Wi-Fi 6E oder Wi-Fi 7**
+  unterstützt.
+
+Für Ihre Geräte heißt das: **Alles bleibt kompatibel.** WLAN ist
+abwärtskompatibel – auch ältere Geräte verbinden sich mit den neuen Access
+Points ganz normal über 2,4 oder 5 GHz. Ihr Gerät wählt automatisch das beste
+verfügbare Band; es muss nichts umgestellt werden. Die volle Geschwindigkeit
+des neuen Ausbaus nutzen Geräte, die selbst Wi-Fi 6E oder Wi-Fi 7
+unterstützen.
+
+## Kein Internet im WLAN?
+
+Prüfen Sie bei Verbindungsproblemen zunächst diese häufigen Ursachen:
+
+- **Falsche Zugangsdaten:** Für **schulen.wedel** gilt: Benutzername =
+  Mailadresse, Passwort = Mail-Passwort. Nach einer **Passwortänderung**
+  müssen die Zugangsdaten im WLAN neu eingetragen werden.
+- **Gar nicht verbunden:** Prüfen Sie, ob WLAN am Gerät eingeschaltet ist und
+  ob das **richtige Netz** ausgewählt wurde – manche Geräte verbinden sich
+  sonst automatisch mit einem anderen gespeicherten Netz.
+- **Zu weit vom Access Point entfernt:** Bei sehr schwachem Empfang (wenige
+  Balken) hilft es oft schon, sich ein Stück in Richtung des nächsten Access
+  Points zu bewegen.
+
+Hilft das alles nicht, starten Sie das Gerät einmal neu und erstellen Sie
+andernfalls ein [Ticket](../support/ticket-erstellen.mdx) mit Angabe von
+Gebäude und Raum.
+
+:::warning[Ganze Bereiche ohne Internet?]
+Haben **ganze Gebäudeteile oder die ganze Schule** kein Internet, erstellen
+Sie bitte **sofort ein Ticket** – solche Störungen werden mit **höherer
+Priorität** bearbeitet. Geplante Wartungen führen wir grundsätzlich
+**außerhalb der Arbeitszeit** durch, dadurch kommt es im Schulbetrieb nicht
+zu Ausfällen.
+:::
+
+## Der Austausch läuft schrittweise
+
+Weitere ältere Access Points werden nach und nach gegen Geräte der neuen
+Generation ausgetauscht. Dieser Austausch erfolgt schrittweise und wird noch
+etwas Zeit in Anspruch nehmen.
+
+:::note[Gut zu wissen]
+Falls das WLAN in einem bestimmten Raum noch nicht so schnell ist wie erwartet,
+kann es sein, dass dort der Austausch noch aussteht. Melden Sie uns solche
+Räume gerne über ein [Ticket](../support/ticket-erstellen.mdx) – so können wir
+sie bei der Reihenfolge berücksichtigen.
+:::

@@ -1,0 +1,8 @@
+{
+  "label": "Support & Hilfe",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "So erstellen Sie ein Ticket und erreichen uns bei Fragen und Problemen."
+  }
+}

@@ -1,0 +1,51 @@
+---
+sidebar_position: 3
+title: MAC-Adresse ermitteln
+description: So finden Sie die Hardware-Adresse eines Geräts – für die Freigabe im Schulnetz.
+---
+
+import Bildplatzhalter from '@site/src/components/Bildplatzhalter';
+
+# Die MAC-Adresse eines Geräts ermitteln
+
+Für die Freigabe eines Geräts im Schulnetz benötigen wir dessen **MAC-Adresse**.
+Das ist eine feste Kennung der Netzwerk-Hardware und sieht ungefähr so aus:
+
+```
+A1:B2:C3:D4:E5:F6
+```
+
+Jedes Gerät hat eine eigene MAC-Adresse – teils sogar getrennt für WLAN und
+LAN-Kabel. Geben Sie im Zweifel beide an.
+
+<Bildplatzhalter beschreibung="Screenshot: WLAN-Einstellungen mit hervorgehobener MAC-Adresse" ratio="4 / 3" />
+
+## Windows
+
+1. **Einstellungen → Netzwerk und Internet** öffnen.
+2. Die aktive Verbindung (WLAN oder Ethernet) auswählen.
+3. Unter den Eigenschaften die **Physische Adresse (MAC)** ablesen.
+
+Alternativ über die Eingabeaufforderung: `ipconfig /all` eingeben und bei der
+Netzwerkkarte die „Physische Adresse“ notieren.
+
+## macOS
+
+1. **Systemeinstellungen → Netzwerk** öffnen.
+2. Die aktive Verbindung auswählen und auf **Details** klicken.
+3. Unter **Hardware** finden Sie die MAC-Adresse.
+
+## iPad / iPhone
+
+**Einstellungen → Allgemein → Info** – dort steht die **WLAN-Adresse**.
+
+## Android
+
+**Einstellungen → Über das Telefon → Status** – dort finden Sie die
+**WLAN-MAC-Adresse**.
+
+:::note[Sie kommen nicht weiter?]
+Kein Problem – schreiben Sie uns einfach ein
+[Ticket](./ticket-erstellen.mdx) oder rufen Sie an. Wir helfen beim Ermitteln
+der MAC-Adresse gerne weiter.
+:::

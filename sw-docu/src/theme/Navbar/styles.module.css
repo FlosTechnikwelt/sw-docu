@@ -1,0 +1,24 @@
+.betaBalken {
+  padding: 0.4rem 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  background-color: #fff4d5;
+  color: #664d03;
+  border-bottom: 1px solid #f0dfa8;
+}
+
+.betaLink {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.betaLink:hover {
+  color: inherit;
+}
+
+:global([data-theme='dark']) .betaBalken {
+  background-color: #3a3423;
+  color: #ffe9a8;
+  border-bottom-color: #55492c;
+}

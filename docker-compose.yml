@@ -1,0 +1,7 @@
+services:
+  sw-docu:
+    build: .
+    container_name: sw-docu
+    ports:
+      - "4771:80"
+    restart: unless-stopped

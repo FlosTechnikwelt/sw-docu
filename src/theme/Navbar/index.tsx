@@ -14,7 +14,7 @@ export default function NavbarWrapper(props: Props): ReactNode {
     <>
       <Navbar {...props} />
       <div className={styles.betaBalken} role="note">
-        <strong>Beta-Version</strong> – die Inhalte werden laufend erweitert
+        <strong>Hinweis:</strong> Beta Version, die Inhalte werden laufend erweitert
         und verbessert.{' '}
         <Link className={styles.betaLink} to="/ueber-diese-seite">
           Mehr erfahren

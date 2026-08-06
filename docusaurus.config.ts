@@ -122,6 +122,10 @@ const config: Config = {
               label: 'Neuigkeiten',
               to: '/blog',
             },
+            {
+              label: 'Feedback zur Wissensdatenbank',
+              href: 'mailto:knowledgebase.sw@grassau.com',
+            },
           ],
         },
         {

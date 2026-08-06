@@ -19,6 +19,13 @@ export default function NavbarWrapper(props: Props): ReactNode {
         <Link className={styles.betaLink} to="/ueber-diese-seite">
           Mehr erfahren
         </Link>
+        <span className={styles.betaTrenner}>·</span>
+        Feedback an{' '}
+        <Link
+          className={styles.betaLink}
+          to="mailto:knowledgebase.sw@grassau.com">
+          knowledgebase.sw@grassau.com
+        </Link>
       </div>
     </>
   );
